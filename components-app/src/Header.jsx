@@ -23,7 +23,12 @@ function Header() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="http://localhost:3030/">
-                  Home
+                  Host app
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="http://localhost:5050/">
+                  App/index.js
                 </a>
               </li>
               <li className="nav-item">
@@ -34,11 +39,6 @@ function Header() {
               <li className="nav-item">
                 <a className="nav-link" href="http://localhost:1337/admin">
                   Strapi
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="http://localhost:5050/">
-                  Index-app
                 </a>
               </li>
             </ul>

@@ -12,11 +12,9 @@ module.exports = (config, webpack) => {
       filename: "remoteEntry.js", // remote file name which will used later
       remoteType: "var",
       exposes: { // expose all component here.
-        "./Strapi" : "packages/core/admin/admin/src/index.js"
+        "./Strapi" : "../../build/admin-app.a1bbeba0.chunk.js"
       },
-      remotes: {
-        remote_app: "remote_app@http://localhost:8080/remoteEntry.js",
-      },
+      remotes: {},
       shared: {
         ...deps,
         react: {

@@ -44,7 +44,7 @@ module.exports = {
       name: "index_app",
       filename: "remoteEntry.js",
       remotes: {
-        remote_app: "remote_app@http://localhost:8080/remoteEntry.js",
+        components_app: "components_app@http://localhost:8080/remoteEntry.js",
       },
       exposes: {
         "./Index" : "./src/index.js",

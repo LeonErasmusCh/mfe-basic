@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-import Header from "remote_app/Header";
-import Footer from "remote_app/Footer";
+import Header from "components_app/Header";
+import Footer from "components_app/Footer";
 
 const App = () => (
   <>

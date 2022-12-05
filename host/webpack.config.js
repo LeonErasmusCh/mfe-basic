@@ -44,8 +44,10 @@ module.exports = {
       name: "host",
       filename: "remoteEntry.js",
       remotes: {
-        remote_app: "remote_app@http://localhost:8080/remoteEntry.js",
+        components_app: "components_app@http://localhost:8080/remoteEntry.js",
         index_app: "index_app@http://localhost:5050/remoteEntry.js",
+        strapi:"strapi@http://localhost:1337/remoteEntry.js"
+        
       },
       exposes: {},
       shared: {

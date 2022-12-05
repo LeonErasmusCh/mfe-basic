@@ -32,8 +32,13 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="http://localhost:1337/admin">
                   Strapi
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="http://localhost:5050/">
+                  Index-app
                 </a>
               </li>
             </ul>

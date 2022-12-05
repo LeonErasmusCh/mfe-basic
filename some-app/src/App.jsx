@@ -6,15 +6,17 @@ import "./index.css";
 import Header from "remote_app/Header";
 import Footer from "remote_app/Footer";
 
+
 const App = () => (
   <>
-    <Header />
-    <div className="container-fluid">
-      <div className="container bg-warning" style={{ minHeight: "88vh" }}>
-        <h1 className="text-white p-5 text-center">Welcome to Micro Frontends</h1>
-      </div>
-    </div>
-    <Footer />
+  <Header />
+  <div className="container bg-warning" style={{minHeight: "88vh"}}>
+    <div>Name: some-app</div>
+    <div>Framework: react</div>
+    <div>Language: JavaScript</div>
+    <div>CSS: Empty CSS</div>
+  </div>
+  <Footer/>
   </>
 );
 ReactDOM.render(<App />, document.getElementById("app"));

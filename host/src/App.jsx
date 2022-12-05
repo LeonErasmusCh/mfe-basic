@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "remote_app/Header";
+import Footer from "remote_app/Footer";
 
 const App = () => (
-  <div className="container">
+  <div className="container-fluid">
     <Header />
-    <div>
+    <div style={{minHeight: "85vh"}}>
       Page Content .........
     </div>
     <Footer />
